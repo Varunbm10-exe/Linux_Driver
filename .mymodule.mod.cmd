@@ -1,0 +1,1 @@
+savedcmd_/home/varun/programming/linuxDrivers/01_simple_lkm/mymodule.mod := printf '%s\n'   mymodule.o | awk '!x[$$0]++ { print("/home/varun/programming/linuxDrivers/01_simple_lkm/"$$0) }' > /home/varun/programming/linuxDrivers/01_simple_lkm/mymodule.mod
